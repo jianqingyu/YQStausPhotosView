@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79E821FE1CBDE6DC00C25B38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E821FD1CBDE6DC00C25B38 /* main.m */; };
+		79E822011CBDE6DC00C25B38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E822001CBDE6DC00C25B38 /* AppDelegate.m */; };
+		79E822041CBDE6DC00C25B38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E822031CBDE6DC00C25B38 /* ViewController.m */; };
+		79E822071CBDE6DC00C25B38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E822051CBDE6DC00C25B38 /* Main.storyboard */; };
+		79E822091CBDE6DC00C25B38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E822081CBDE6DC00C25B38 /* Assets.xcassets */; };
+		79E8220C1CBDE6DC00C25B38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E8220A1CBDE6DC00C25B38 /* LaunchScreen.storyboard */; };
+		79E822171CBDE6DC00C25B38 /* YQStausPhotosViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E822161CBDE6DC00C25B38 /* YQStausPhotosViewTests.m */; };
+		79E822221CBDE6DC00C25B38 /* YQStausPhotosViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E822211CBDE6DC00C25B38 /* YQStausPhotosViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79E822131CBDE6DC00C25B38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79E821F11CBDE6DC00C25B38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79E821F81CBDE6DC00C25B38;
+			remoteInfo = YQStausPhotosView;
+		};
+		79E8221E1CBDE6DC00C25B38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79E821F11CBDE6DC00C25B38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79E821F81CBDE6DC00C25B38;
+			remoteInfo = YQStausPhotosView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79E821F91CBDE6DC00C25B38 /* YQStausPhotosView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQStausPhotosView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E821FD1CBDE6DC00C25B38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79E821FF1CBDE6DC00C25B38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79E822001CBDE6DC00C25B38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79E822021CBDE6DC00C25B38 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		79E822031CBDE6DC00C25B38 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		79E822061CBDE6DC00C25B38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79E822081CBDE6DC00C25B38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79E8220B1CBDE6DC00C25B38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79E8220D1CBDE6DC00C25B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E822121CBDE6DC00C25B38 /* YQStausPhotosViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQStausPhotosViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E822161CBDE6DC00C25B38 /* YQStausPhotosViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQStausPhotosViewTests.m; sourceTree = "<group>"; };
+		79E822181CBDE6DC00C25B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E8221D1CBDE6DC00C25B38 /* YQStausPhotosViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQStausPhotosViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E822211CBDE6DC00C25B38 /* YQStausPhotosViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQStausPhotosViewUITests.m; sourceTree = "<group>"; };
+		79E822231CBDE6DC00C25B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79E821F61CBDE6DC00C25B38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E8220F1CBDE6DC00C25B38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E8221A1CBDE6DC00C25B38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79E821F01CBDE6DC00C25B38 = {
+			isa = PBXGroup;
+			children = (
+				79E821FB1CBDE6DC00C25B38 /* YQStausPhotosView */,
+				79E822151CBDE6DC00C25B38 /* YQStausPhotosViewTests */,
+				79E822201CBDE6DC00C25B38 /* YQStausPhotosViewUITests */,
+				79E821FA1CBDE6DC00C25B38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79E821FA1CBDE6DC00C25B38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79E821F91CBDE6DC00C25B38 /* YQStausPhotosView.app */,
+				79E822121CBDE6DC00C25B38 /* YQStausPhotosViewTests.xctest */,
+				79E8221D1CBDE6DC00C25B38 /* YQStausPhotosViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79E821FB1CBDE6DC00C25B38 /* YQStausPhotosView */ = {
+			isa = PBXGroup;
+			children = (
+				79E821FF1CBDE6DC00C25B38 /* AppDelegate.h */,
+				79E822001CBDE6DC00C25B38 /* AppDelegate.m */,
+				79E822021CBDE6DC00C25B38 /* ViewController.h */,
+				79E822031CBDE6DC00C25B38 /* ViewController.m */,
+				79E822051CBDE6DC00C25B38 /* Main.storyboard */,
+				79E822081CBDE6DC00C25B38 /* Assets.xcassets */,
+				79E8220A1CBDE6DC00C25B38 /* LaunchScreen.storyboard */,
+				79E8220D1CBDE6DC00C25B38 /* Info.plist */,
+				79E821FC1CBDE6DC00C25B38 /* Supporting Files */,
+			);
+			path = YQStausPhotosView;
+			sourceTree = "<group>";
+		};
+		79E821FC1CBDE6DC00C25B38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79E821FD1CBDE6DC00C25B38 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79E822151CBDE6DC00C25B38 /* YQStausPhotosViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				79E822161CBDE6DC00C25B38 /* YQStausPhotosViewTests.m */,
+				79E822181CBDE6DC00C25B38 /* Info.plist */,
+			);
+			path = YQStausPhotosViewTests;
+			sourceTree = "<group>";
+		};
+		79E822201CBDE6DC00C25B38 /* YQStausPhotosViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79E822211CBDE6DC00C25B38 /* YQStausPhotosViewUITests.m */,
+				79E822231CBDE6DC00C25B38 /* Info.plist */,
+			);
+			path = YQStausPhotosViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79E821F81CBDE6DC00C25B38 /* YQStausPhotosView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E822261CBDE6DC00C25B38 /* Build configuration list for PBXNativeTarget "YQStausPhotosView" */;
+			buildPhases = (
+				79E821F51CBDE6DC00C25B38 /* Sources */,
+				79E821F61CBDE6DC00C25B38 /* Frameworks */,
+				79E821F71CBDE6DC00C25B38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YQStausPhotosView;
+			productName = YQStausPhotosView;
+			productReference = 79E821F91CBDE6DC00C25B38 /* YQStausPhotosView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79E822111CBDE6DC00C25B38 /* YQStausPhotosViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E822291CBDE6DC00C25B38 /* Build configuration list for PBXNativeTarget "YQStausPhotosViewTests" */;
+			buildPhases = (
+				79E8220E1CBDE6DC00C25B38 /* Sources */,
+				79E8220F1CBDE6DC00C25B38 /* Frameworks */,
+				79E822101CBDE6DC00C25B38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79E822141CBDE6DC00C25B38 /* PBXTargetDependency */,
+			);
+			name = YQStausPhotosViewTests;
+			productName = YQStausPhotosViewTests;
+			productReference = 79E822121CBDE6DC00C25B38 /* YQStausPhotosViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79E8221C1CBDE6DC00C25B38 /* YQStausPhotosViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E8222C1CBDE6DC00C25B38 /* Build configuration list for PBXNativeTarget "YQStausPhotosViewUITests" */;
+			buildPhases = (
+				79E822191CBDE6DC00C25B38 /* Sources */,
+				79E8221A1CBDE6DC00C25B38 /* Frameworks */,
+				79E8221B1CBDE6DC00C25B38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79E8221F1CBDE6DC00C25B38 /* PBXTargetDependency */,
+			);
+			name = YQStausPhotosViewUITests;
+			productName = YQStausPhotosViewUITests;
+			productReference = 79E8221D1CBDE6DC00C25B38 /* YQStausPhotosViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79E821F11CBDE6DC00C25B38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = com.millenniumStar;
+				TargetAttributes = {
+					79E821F81CBDE6DC00C25B38 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					79E822111CBDE6DC00C25B38 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 79E821F81CBDE6DC00C25B38;
+					};
+					79E8221C1CBDE6DC00C25B38 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 79E821F81CBDE6DC00C25B38;
+					};
+				};
+			};
+			buildConfigurationList = 79E821F41CBDE6DC00C25B38 /* Build configuration list for PBXProject "YQStausPhotosView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79E821F01CBDE6DC00C25B38;
+			productRefGroup = 79E821FA1CBDE6DC00C25B38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79E821F81CBDE6DC00C25B38 /* YQStausPhotosView */,
+				79E822111CBDE6DC00C25B38 /* YQStausPhotosViewTests */,
+				79E8221C1CBDE6DC00C25B38 /* YQStausPhotosViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79E821F71CBDE6DC00C25B38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E8220C1CBDE6DC00C25B38 /* LaunchScreen.storyboard in Resources */,
+				79E822091CBDE6DC00C25B38 /* Assets.xcassets in Resources */,
+				79E822071CBDE6DC00C25B38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E822101CBDE6DC00C25B38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E8221B1CBDE6DC00C25B38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79E821F51CBDE6DC00C25B38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E822041CBDE6DC00C25B38 /* ViewController.m in Sources */,
+				79E822011CBDE6DC00C25B38 /* AppDelegate.m in Sources */,
+				79E821FE1CBDE6DC00C25B38 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E8220E1CBDE6DC00C25B38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E822171CBDE6DC00C25B38 /* YQStausPhotosViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E822191CBDE6DC00C25B38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E822221CBDE6DC00C25B38 /* YQStausPhotosViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79E822141CBDE6DC00C25B38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79E821F81CBDE6DC00C25B38 /* YQStausPhotosView */;
+			targetProxy = 79E822131CBDE6DC00C25B38 /* PBXContainerItemProxy */;
+		};
+		79E8221F1CBDE6DC00C25B38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79E821F81CBDE6DC00C25B38 /* YQStausPhotosView */;
+			targetProxy = 79E8221E1CBDE6DC00C25B38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79E822051CBDE6DC00C25B38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79E822061CBDE6DC00C25B38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79E8220A1CBDE6DC00C25B38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79E8220B1CBDE6DC00C25B38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79E822241CBDE6DC00C25B38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79E822251CBDE6DC00C25B38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79E822271CBDE6DC00C25B38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YQStausPhotosView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.millenniumStar.YQStausPhotosView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79E822281CBDE6DC00C25B38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YQStausPhotosView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.millenniumStar.YQStausPhotosView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		79E8222A1CBDE6DC00C25B38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YQStausPhotosViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.millenniumStar.YQStausPhotosViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQStausPhotosView.app/YQStausPhotosView";
+			};
+			name = Debug;
+		};
+		79E8222B1CBDE6DC00C25B38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YQStausPhotosViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.millenniumStar.YQStausPhotosViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQStausPhotosView.app/YQStausPhotosView";
+			};
+			name = Release;
+		};
+		79E8222D1CBDE6DC00C25B38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YQStausPhotosViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.millenniumStar.YQStausPhotosViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YQStausPhotosView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		79E8222E1CBDE6DC00C25B38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YQStausPhotosViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.millenniumStar.YQStausPhotosViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YQStausPhotosView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79E821F41CBDE6DC00C25B38 /* Build configuration list for PBXProject "YQStausPhotosView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E822241CBDE6DC00C25B38 /* Debug */,
+				79E822251CBDE6DC00C25B38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E822261CBDE6DC00C25B38 /* Build configuration list for PBXNativeTarget "YQStausPhotosView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E822271CBDE6DC00C25B38 /* Debug */,
+				79E822281CBDE6DC00C25B38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79E822291CBDE6DC00C25B38 /* Build configuration list for PBXNativeTarget "YQStausPhotosViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E8222A1CBDE6DC00C25B38 /* Debug */,
+				79E8222B1CBDE6DC00C25B38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79E8222C1CBDE6DC00C25B38 /* Build configuration list for PBXNativeTarget "YQStausPhotosViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E8222D1CBDE6DC00C25B38 /* Debug */,
+				79E8222E1CBDE6DC00C25B38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79E821F11CBDE6DC00C25B38 /* Project object */;
+}
