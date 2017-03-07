@@ -1,25 +1,63 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oyw-uO-YZF">
+                                <rect key="frame" x="130" y="20" width="60" height="30"/>
+                                <state key="normal" title="添加照片"/>
+                                <connections>
+                                    <action selector="addImg:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fno-s7-GTc"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cP7-lc-WxL">
+                                <rect key="frame" x="0.0" y="130" width="320" height="438"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="qT8-DR-J4O"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="kjN-2Y-amF"/>
+                                </connections>
+                            </tableView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="G4g-Qh-kEK">
+                                <rect key="frame" x="0.0" y="58" width="320" height="64"/>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cP7-lc-WxL" firstAttribute="top" secondItem="oyw-uO-YZF" secondAttribute="bottom" constant="80" id="16Y-up-TUD"/>
+                            <constraint firstItem="cP7-lc-WxL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="2Dl-va-q0i"/>
+                            <constraint firstItem="G4g-Qh-kEK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5F9-bJ-qbF"/>
+                            <constraint firstItem="cP7-lc-WxL" firstAttribute="top" secondItem="G4g-Qh-kEK" secondAttribute="bottom" constant="8" id="5kk-1H-BKF"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cP7-lc-WxL" secondAttribute="bottom" id="AoD-G7-EFi"/>
+                            <constraint firstAttribute="trailing" secondItem="cP7-lc-WxL" secondAttribute="trailing" id="FAv-jn-ETy"/>
+                            <constraint firstItem="G4g-Qh-kEK" firstAttribute="top" secondItem="oyw-uO-YZF" secondAttribute="bottom" constant="8" id="VUn-dR-BSF"/>
+                            <constraint firstAttribute="trailing" secondItem="G4g-Qh-kEK" secondAttribute="trailing" id="Xvl-kn-1Si"/>
+                            <constraint firstItem="oyw-uO-YZF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pwg-07-qqh"/>
+                            <constraint firstItem="oyw-uO-YZF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="sx5-fL-Lt6"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="myStackView" destination="G4g-Qh-kEK" id="m5I-bb-dd8"/>
+                        <outlet property="tableView" destination="cP7-lc-WxL" id="4W9-OT-qWl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="181" y="406"/>
         </scene>
     </scenes>
 </document>

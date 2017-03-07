@@ -15,6 +15,11 @@
 		79E8220C1CBDE6DC00C25B38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E8220A1CBDE6DC00C25B38 /* LaunchScreen.storyboard */; };
 		79E822171CBDE6DC00C25B38 /* YQStausPhotosViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E822161CBDE6DC00C25B38 /* YQStausPhotosViewTests.m */; };
 		79E822221CBDE6DC00C25B38 /* YQStausPhotosViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E822211CBDE6DC00C25B38 /* YQStausPhotosViewUITests.m */; };
+		79E8223F1CBDE7E900C25B38 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E8223A1CBDE7E900C25B38 /* UIView+Extension.m */; };
+		79E822401CBDE7E900C25B38 /* YQStatusPhotosView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E8223C1CBDE7E900C25B38 /* YQStatusPhotosView.m */; };
+		79E822411CBDE7E900C25B38 /* YQStatusPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E8223E1CBDE7E900C25B38 /* YQStatusPhotoView.m */; };
+		79E822451CBDEB5400C25B38 /* YQStatusPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E822431CBDEB5400C25B38 /* YQStatusPhotoCell.m */; };
+		79E822461CBDEB5400C25B38 /* YQStatusPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79E822441CBDEB5400C25B38 /* YQStatusPhotoCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		79E8221D1CBDE6DC00C25B38 /* YQStausPhotosViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQStausPhotosViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79E822211CBDE6DC00C25B38 /* YQStausPhotosViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQStausPhotosViewUITests.m; sourceTree = "<group>"; };
 		79E822231CBDE6DC00C25B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E822391CBDE7E900C25B38 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		79E8223A1CBDE7E900C25B38 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		79E8223B1CBDE7E900C25B38 /* YQStatusPhotosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQStatusPhotosView.h; sourceTree = "<group>"; };
+		79E8223C1CBDE7E900C25B38 /* YQStatusPhotosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQStatusPhotosView.m; sourceTree = "<group>"; };
+		79E8223D1CBDE7E900C25B38 /* YQStatusPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQStatusPhotoView.h; sourceTree = "<group>"; };
+		79E8223E1CBDE7E900C25B38 /* YQStatusPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQStatusPhotoView.m; sourceTree = "<group>"; };
+		79E822421CBDEB5400C25B38 /* YQStatusPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQStatusPhotoCell.h; sourceTree = "<group>"; };
+		79E822431CBDEB5400C25B38 /* YQStatusPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQStatusPhotoCell.m; sourceTree = "<group>"; };
+		79E822441CBDEB5400C25B38 /* YQStatusPhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YQStatusPhotoCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +115,14 @@
 		79E821FB1CBDE6DC00C25B38 /* YQStausPhotosView */ = {
 			isa = PBXGroup;
 			children = (
+				79E822381CBDE7E900C25B38 /* YQStatusPhoto */,
 				79E821FF1CBDE6DC00C25B38 /* AppDelegate.h */,
 				79E822001CBDE6DC00C25B38 /* AppDelegate.m */,
 				79E822021CBDE6DC00C25B38 /* ViewController.h */,
 				79E822031CBDE6DC00C25B38 /* ViewController.m */,
+				79E822421CBDEB5400C25B38 /* YQStatusPhotoCell.h */,
+				79E822431CBDEB5400C25B38 /* YQStatusPhotoCell.m */,
+				79E822441CBDEB5400C25B38 /* YQStatusPhotoCell.xib */,
 				79E822051CBDE6DC00C25B38 /* Main.storyboard */,
 				79E822081CBDE6DC00C25B38 /* Assets.xcassets */,
 				79E8220A1CBDE6DC00C25B38 /* LaunchScreen.storyboard */,
@@ -138,6 +156,19 @@
 				79E822231CBDE6DC00C25B38 /* Info.plist */,
 			);
 			path = YQStausPhotosViewUITests;
+			sourceTree = "<group>";
+		};
+		79E822381CBDE7E900C25B38 /* YQStatusPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				79E822391CBDE7E900C25B38 /* UIView+Extension.h */,
+				79E8223A1CBDE7E900C25B38 /* UIView+Extension.m */,
+				79E8223B1CBDE7E900C25B38 /* YQStatusPhotosView.h */,
+				79E8223C1CBDE7E900C25B38 /* YQStatusPhotosView.m */,
+				79E8223D1CBDE7E900C25B38 /* YQStatusPhotoView.h */,
+				79E8223E1CBDE7E900C25B38 /* YQStatusPhotoView.m */,
+			);
+			path = YQStatusPhoto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +276,7 @@
 			files = (
 				79E8220C1CBDE6DC00C25B38 /* LaunchScreen.storyboard in Resources */,
 				79E822091CBDE6DC00C25B38 /* Assets.xcassets in Resources */,
+				79E822461CBDEB5400C25B38 /* YQStatusPhotoCell.xib in Resources */,
 				79E822071CBDE6DC00C25B38 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,8 +303,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				79E822041CBDE6DC00C25B38 /* ViewController.m in Sources */,
+				79E822451CBDEB5400C25B38 /* YQStatusPhotoCell.m in Sources */,
 				79E822011CBDE6DC00C25B38 /* AppDelegate.m in Sources */,
+				79E8223F1CBDE7E900C25B38 /* UIView+Extension.m in Sources */,
+				79E822411CBDE7E900C25B38 /* YQStatusPhotoView.m in Sources */,
 				79E821FE1CBDE6DC00C25B38 /* main.m in Sources */,
+				79E822401CBDE7E900C25B38 /* YQStatusPhotosView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YQStausPhotosView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.millenniumStar.YQStausPhotosView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +460,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YQStausPhotosView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.millenniumStar.YQStausPhotosView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
